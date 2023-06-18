@@ -1,3 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Josefin+Sans:wght@300;400;600&family=Karla:wght@400;700&family=Lobster&family=Poppins:wght@200;400;600&family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.email-section {
+    color: white;
+    background-color: hsl(238, 22%, 44%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 3rem 0 4rem 0;
+    height: 100vh;
+}
+
+.left-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.left-div p {
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 1.8rem;
+}
+
+.left h2 {
+    margin-bottom: 1.2rem;
+    font-weight: 400;
+}
+
+.right-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    gap: .6rem;
+}
+
+.btn {
+    width: 17.5rem;
+    padding: .8rem;
+    color: hsl(0, 0%, 99%);
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    font-size: .8rem;
+    border-radius: 2px;
+}
+
+.email {
+    width: 100%;
+    color: hsl(0, 0%, 75%);
+    padding: .6rem;
+}
+
+.email::placeholder {
+    color: hsl(0, 0%, 75%);
+}
+
+@media (min-width:700px){
+    .email-section {
+        flex-direction: row;
+        gap: 5rem;
+        padding: 3rem 6rem 4rem 3rem;
+    }
+
+    .left-div {
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .left-div p {
+        line-height: 1.5rem;
+    }
+
+    .right-div {
+        align-items: flex-start;
+    }
+
+    .btn {
+        max-width: 17.5rem;
+    }
+}
+
 *{
     box-sizing: border-box;
     text-decoration: none;
