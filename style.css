@@ -1,13 +1,18 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Josefin+Sans:wght@300;400;600&family=Karla:wght@400;700&family=Lobster&family=Poppins:wght@200;400;600&family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
-*{
+* {
     box-sizing: border-box;
-    font-family: 'Hanken Grotesk', sans-serif;;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
 
 .email-section {
     color: white;
@@ -70,7 +75,7 @@
     color: hsl(0, 0%, 75%);
 }
 
-@media (min-width:700px){
+@media (min-width:700px) {
     .email-section {
         flex-direction: row;
         gap: 5rem;
@@ -95,18 +100,20 @@
     }
 }
 
-*{
+* {
     box-sizing: border-box;
     text-decoration: none;
     margin: .5rem;
-    
+
 }
 
-header a, main h1, p{
+header a,
+main h1,
+p {
     color: hsl(243, 87%, 12%);
 }
 
-button{
+button {
     border: none;
     border-radius: 2px;
     width: 30%;
@@ -114,7 +121,8 @@ button{
     background-color: hsl(224, 93%, 58%);
     color: hsl(240, 75%, 98%)
 }
-input{
+
+input {
     padding-left: 1rem;
     height: 2.5rem;
     margin-right: 0;
@@ -123,46 +131,48 @@ input{
 
 }
 
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    
+
 }
 
-.navlinks{
+.navlinks {
     display: flex;
     justify-content: space-between;
-    gap:2rem;
-    
+    gap: 2rem;
+
 }
 
-.feature-section{
+.feature-section {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     align-items: center;
 
 }
-.feature-section img{
-   width: 80%;
+
+.feature-section img {
+    width: 80%;
 }
 
-.feature-section h1{
+.feature-section h1 {
     line-height: 1.7;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    
- }
 
-.feature-section p{
+}
+
+.feature-section p {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
 
- form{
+form {
     margin-left: 0px;
+  
  }
 /* Footer */
 footer {
@@ -254,5 +264,95 @@ margin-bottom: 5px;
   text-decoration: underline;
 }
 
-  
+}
+
+
+/* Stay-Productive-Section */
+.stay-productive {
+    display: flex;
+    padding: 100px 0 50px 0;
+    background-image: url("images/bg-curve-desktop.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.stay-productive .left-side {
+    flex: 0.5;
+}
+
+.stay-productive .left-side h1 {
+    line-height: 1.7;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.stay-productive .left-side p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.stay-productive .left-side a {
+    padding-bottom: 2px;
+    color: hsl(170, 45%, 43%);
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+}
+
+.stay-productive .left-side a img {
+    margin: 0 0 -2px 5px;
+}
+
+.stay-productive .right-side {
+    flex: 0.5;
+}
+
+.stay-productive .right-side img {
+    width: 80%;
+    height: auto;
+}
+
+.testimonial {
+    margin: 30px 0;
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: hsl(0, 0%, 75%) 0 0 3px -1px;
+    padding: 10px 20px;
+}
+
+.testimonial p {
+    font-size: 0.7em;
+    font-weight: 700;
+    line-height: 1.7;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.customer-info {
+    display: flex;
+    align-items: center;
+}
+
+.customer-info img {
+    width: 20%;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.customer-info h6 {
+    margin: 0;
+}
+
+.customer-info p {
+    margin: 0;
+    font-size: 0.5em !important;
+    color: hsl(238, 22%, 44%);
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
 
